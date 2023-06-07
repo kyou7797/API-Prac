@@ -1,15 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import pic from './img/red-hong-20180727.jpg'
 import './App.css'
-import Container from '@mui/material/Container'
+import { Box } from '@mui/material';
+import { Card } from './components/Card'
 
 function App() {
-
-
   return (
     <div className='bg'>
-      sdsadas
+      <Box sx={{
+        width: '50%',
+        height: '70vh',
+        backgroundColor: 'black'
+      }}>
+        <Card  />
+      </Box>
     </div>
   );
 }
