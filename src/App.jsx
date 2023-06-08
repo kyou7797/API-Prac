@@ -9,7 +9,10 @@ function App() {
       <Box sx={{
         width: '50%',
         height: '70vh',
-        backgroundColor: 'black'
+        backgroundColor: 'white',
+      }}
+      style={{
+        borderRadius: "12px"
       }}>
         <Card  />
       </Box>
