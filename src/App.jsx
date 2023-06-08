@@ -9,7 +9,7 @@ function App() {
       <Box sx={{
         width: '50%',
         height: '70vh',
-        backgroundColor: 'white',
+        backgroundColor: '#FFFFFE',
       }}
       style={{
         borderRadius: "12px"
